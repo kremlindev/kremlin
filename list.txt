@@ -1,0 +1,39 @@
+///////////////////// List ////////////////////////////
+Eklenecek >>
+uyarıları-sıfıla | Uyarı sistemi
+uyarı-sil @kişi | Uyarı sistemi
+Tepkili Ticket | Ticket sistemi
+Yardıma davet etme butonları | Bağımsız kod
+tavsiye-sıfırla | Tavsiye sistemi
+Yeni tema ve emojiler | Tüm komutlar
+/////////////////////////////////////////////////////
+Silinecek >>
+çekiliş | Çekiliş sistemi ✅
+reroll | Çekiliş sistemi ✅
+lang | Dil sistemi + Dil sisteminin tamamı ✅
+emojiekle | Bağımsız kod
+rozet-1/rozet-2/rozet-3/rozetlerim | Rozet sistemi
+isimdeğiştir | Bağımsız kod
+resimdeğiştir | Bağımsız kod
+dosya-oluştur | Bağımsız kod ✅
+youtube | Bağımsız kod ✅
+Gereksiz ping dosyaları | Bağımsız Kod ✅
+/////////////////////////////////////////////////////
+Düzeltilecek >> ✅
+emoji | Bağımsız kod ✅
+js | Evallar ✅
+versiyon | Bağımsız kod ✅
+bot-bilgi | Bağımsız kod ✅
+function | Bağımsız kod ✅
+editlemeli küfür/reklam engel | Bağımsız kod ✅
+/////////////////////////////////////////////////////
+Aktif versiyon: v9.9
+Güncellenecek Versiyon: v9.9.9
+Dashboard eklenirse güncellenecek versiyon: v10.0.0
+Github: /falsisdev/kremlin
+Yazılım dilleri: JavaScript, HTML, CSS
+Ek yazılımlar ve paketler: Aoi.js, Discord.js, EJS, Express, falsisdb
+Yüzdeler: JavaScript - 70.9% | CSS - 15.0% | EJS - 14.1%
+Lisans: MIT
+Database: falsisdb, dbdjs.db, dbd.db
+/////////////////////////////////////////////////////
