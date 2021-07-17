@@ -1,0 +1,14 @@
+module.exports = ({
+  name:"denetim-kaydı",
+  bkz:"Denetim kaydını görüntüler",
+  code:`$title[Sunucu Denetim Kaydı]
+$description[
+$addField[$customEmoji[id;843482656725139516] Hedef ID'ler;$getAuditLogs[10;...;...;$guildID;{target.id}];yes]
+$addField[$customEmoji[edit;843482656725139516] İşlemler;$getAuditLogs[10;...;...;$guildID;{action}];yes]
+$addField[$customEmoji[takvim;843482656725139516] Genel;$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getAuditLogs[10];- MESSAGE_DELETE;ID'li kişinin mesajını sildi;-1];- MEMBER_ROLE_UPDATE;ID'li kullanıcının rollerini düzenledi;-1];- MEMBER_BAN_ADD;ID'li kullanıcıyı banladı;-1];- INVITE_CREATE;ID'li daveti oluşturdu;-1];- GUILD_UPDATE;ID'li sunucuyu güncelledi;-1];- CHANNEL_CREATE;ID'li kanalı oluşturdu;-1];- CHANNEL_UPDATE;ID'li kanalı güncelledi;-1];- CHANNEL_DELETE;ID'li kanalı sildi.;-1];- CHANNEL_OVERWRITE_CREATE;ID'li kanal yetkisi ekledi;-1];- CHANNEL_OVERWRITE_UPDATE;ID'li kanalın yetklerini düzenledi;-1];- CHANNEL_OVERWRITE_DELETE;ID'li kanalın yetkilerini sildi.;-1];- MEMBER_KICK;ID'li kullanıcıyı sunucudan attı;-1];- MEMBER_PRUNE;ID'li kullanıcıyı prune'ladı;-1];- MEMBER_BAN_REMOVE;ID'li kullanıcının yasağını kaldırdı;-1];- MEMBER_UPDATE;ID'li kullanıcıyı düzenledi;-1];- MEMBER_MOVE;ID'li kullanıcıyı taşıdı;-1];- MEMBER_DISCONNECT;ID'li kullanıcının bağlantısını kesti;-1];- BOT_ADD;ID'li botu ekledi;-1];- ROLE_CREATE;ID'li rolü oluşturdu;-1];- ROLE_UPDATE;ID'li rolü düzenledi;-1];- ROLE_DELETE;ID'li rolü sildi;-1];- INVITE_UPDATE;ID'li daveti düzenledi;-1];- INVITE_DELETE;ID'li daveti sildi;-1];- WEBHOOK_CREATE;ID'li webhook'u oluşturdu;-1];- WEBHOOK_UPDATE;ID'li webhook'u düzenledi;-1];- WEBHOOK_DELETE;ID'li webhook'u sildi.;-1];- EMOJI_CRATE;ID'li emojiyi oluşturdu;-1];- EMOJI_UPDATE;ID'li emojiyi düzenledi;-1];- EMOJI_DELETE;ID'li emojiyi sildi;-1];- MESSAGE_BULK_DELETE;ID'li toplu mesajları sildi;-1];- MESSAGE_PIN;ID'li mesajı asbitledi;-1];- MESSAGE_UNPIN;ID'li mesajın sabitlemesini kaldırdı.;-1];- INTEGRATION_CREATE;ID'li entegrasyonu oluşturdu;-1];- INTEGRATION_UPDATE;ID'li entegrasyonu düzenledi;-1];- INTEGRATION_DELETE;ID'li entegrasyonu sildi;-1]
+]
+$color[BDAAF9]
+$thumbnail[$serverIcon]
+$footer[Kremlin Logger;$userAvatar[$clientID]]
+$onlyPerms[viewauditlog;:x: Bu komutu kullanabilmek için **Denetim Kaydını Görüntüle** yetkisine sahip olman gerekiyor.]`
+})
