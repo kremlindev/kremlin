@@ -1,0 +1,22 @@
+.alert-simple.alert-primary
+{
+  border: #fff;
+    background-color: #24252a;
+    box-shadow: #24252a;
+    color: #24252a;
+    text-shadow: 2px 1px #24252a;
+  transition:0.5s;
+  cursor:pointer;
+}
+
+.alert-primary:hover{
+  background-color: #fff;
+   transition:0.5s;
+}
+
+.alertprimary
+{
+      font-size: 18px;
+    color: #24252a;
+    text-shadow: none;
+}

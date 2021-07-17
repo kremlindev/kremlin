@@ -1,0 +1,84 @@
+<head>
+<script>
+function IE(e) {
+     if (navigator.appName == "Microsoft Internet Explorer" && (event.button == "2" || event.button == "3")) {
+          alert('SAĞ TIKLAMA ENGELİ');
+          return false;
+     }
+}
+function NS(e) {
+     if (document.layers || (document.getElementById && !document.all)) {
+          if (e.which == "2" || e.which == "3") {
+               alert('Sitemizin kod ve resimlerinin korunması amacıyla sağ tıklama engellenmiştir. Anlayışınız için teşekkür ederiz.');
+               return false;
+          }
+     }
+}
+document.onmousedown=IE;document.onmouseup=NS;document.oncontextmenu=new Function("return false");
+</script>
+  	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Kremlin - Discord Botu</title>
+	<meta content="Kremlin'in gelişmiş moderasyon sistemleri ve ticket, emojirol gibi kullanışlı komutları ile sunucunuzu çok daha kolay yönetin!" name="description">
+	<meta name="author" content="Falsis Kremlin">
+	<meta content="Kremlin Bot" property="og:site_name">
+	<meta name="theme-color" content="#303136">
+	<meta name="discord:card" content="https://kremlinbot.ahmetfahri.repl.co/assets/img/meta-image.png">
+	<meta property="og:image" content="https://cdn.discordapp.com/avatars/775820681409462273/733919d6ddb328d93c54c61c5aa1c3c2.png?size=2048" />
+	<meta property="og:keywords" content="Kremlin Kapsamlı Komutları ile inovasyon yaratmaya gelen türkçe onayı discord botu!">
+	<meta property="og:type" content="website">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="300">
+	<meta content="" name="keywords">
+	<link href="https://cdn.discordapp.com/avatars/775820681409462273/733919d6ddb328d93c54c61c5aa1c3c2.png?size=2048" rel="icon">
+	<link href="https://cdn.discordapp.com/avatars/775820681409462273/733919d6ddb328d93c54c61c5aa1c3c2.png?size=2048" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+	 rel="stylesheet">
+	<link href="https://kremlinbot.ahmetfahri.repl.co/assets/vendor/aos/aos.css" rel="stylesheet">
+	<link href="https://kremlinbot.ahmetfahri.repl.co/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://kremlinbot.ahmetfahri.repl.co/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="https://kremlinbot.ahmetfahri.repl.co/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<link href="https://kremlinbot.ahmetfahri.repl.co/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+	<link href="https://kremlinbot.ahmetfahri.repl.co/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+	<link href="/css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e0330794a8.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<script type="text/javascript">
+var title = document.title;
+var alttitle = "Kremlin seni çağırıyor 🎈";
+window.onblur = function () { document.title = alttitle; };
+window.onfocus = function () { document.title = title; };
+</script>
+
+<body>
+	<header id="header" class="fixed-top">
+		<div class="container d-flex align-items-center justify-content-between">
+		 <h1 class="logo"><a href="/">KREMLIN</a></h1>
+
+
+			<nav id="navbar" class="navbar">
+				<ul>
+					<li><a class="nav-link scrollto active" href="/#">Anasayfa</a></li>
+					<li><a class="nav-link scrollto" href="/#hakkında">Hakkında</a></li>
+					<li><a class="nav-link scrollto" href="/komutlar">Komutlar</a></li>
+          <li><a class="nav-link scrollto" href="/#istatistikler">İstatistikler</a></li>
+					<li><a class="nav-link scrollto " href="/support">Support</a></li>
+					<li class="dropdown"><a href="#"><span>Diğer</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/davet">Botu Davet Et</a></li>
+              <li><a href="/destek">Destek Sunucusu</a></li>
+                  <li><a href="/mechanics">The Mechanic's</a></li>
+                  <li><a href="https://api.falsisdev.ga">Api</a></li>
+            </ul>
+          </li>
+          <li><a class="getstarted scrollto" href="/davet">Davet Et</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
