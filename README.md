@@ -6,8 +6,11 @@
 
 ## Toplam 140+ komutuyla kullanııcıları neşelendiren Kremlini [Buradan](https://www.kremlin-bot.ga/davet) ekleyebilirsiniz.
 
-Tüm komutlar için kr-yardım yazabilir veya <a href="https://kremlin-bot.ga/komutlar" class="falsis">Burayı</a> ziyaret edebilirsiniz.
+Tüm komutlar için kr-yardım yazabilir veya <a href="https://www.kremlin-bot.ga/komutlar" class="falsis">Burayı</a> ziyaret edebilirsiniz.
 
-<a href="https://kremlin-bot.ga/lisans" class="falsis"> &copy; Telif Hakkı Kremlin. Tüm Haklar Saklıdır </a>
+<a href="https://www.kremlin-bot.ga/lisans" class="falsis"> &copy; Telif Hakkı Kremlin. Tüm Haklar Saklıdır </a>
 
-<a href="https://kremlin-bot.ga"><img src="https://i.pinimg.com/originals/7a/cb/20/7acb209c594f42e0d56b87d70421c85d.gif"></a>
+# Lisanslandırma
+Bot Apache-2.0 lisansı ile korunmaktadır. Çalınması durumunda yasal haklara başvurulur. Destek olmak için pull request veya issue'ler açıktır.
+
+**Unutmayın, taklitler aslını yüceltir.**
