@@ -33,29 +33,33 @@ app.get("/duyuru",  (req, res) => {
 const database5 = "Kremlin sitesi aktif! https://www.kremlin-bot.ga"
 res.render("duyuru",{database5})
 });
-app.get("/support/0001",  (req, res) => {
-  const Sahip = "Falsis"
-res.render("ticket", {Sahip})
-});
-app.get("/support/0003",  (req, res) => {
-  const Sahip = "Falsis"
-res.render("ceviri", {Sahip})
-});
-app.get("/support/intentler-neden-kapali",  (req, res) => {
-  const Sahip = "Falsis"
-res.render("intent", {Sahip})
-});
 app.get("/icons",  (req, res) => {
   const Sahip = "Falsis"
 res.render("icons", {Sahip})
 });
-app.get("/support/0002",  (req, res) => {
-  const Sahip = "Falsis"
-res.render("emojirol", {Sahip})
-});
-app.get("/support",  (req, res) => {
+app.get("/support/:code",  (req, res) => {
+if(!req.params.code){
   const Sahip = "Falsis"
 res.render("support", {Sahip})
+}
+if(req.params.code === "intentler-neden-kapali"){
+const Sahip = "Falsis"
+res.render("intent", {Sahip})
+}
+if(req.params.code === "0001"){
+const Sahip = "Falsis"
+res.render("ticket", {Sahip})
+}
+if(req.params.code === "0002"){
+const Sahip = "Falsis"
+res.render("emojirol", {Sahip})
+}
+if(req.params.code === "0003"){
+const Sahip = "Falsis"
+res.render("ceviri", {Sahip})
+}else{
+res.redirect("/error")
+}
 });
 app.get("/komutlar",  (req, res) => {
 const database = bot.client.guilds.cache.size
