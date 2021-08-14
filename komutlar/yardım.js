@@ -17,7 +17,7 @@ $addField[$customEmoji[crown;843482656725139516] Sahibe Özel (7);\`eval, eval2,
 
 $addField[$customEmoji[roller;843482656725139516] Eğlence (3);\`meme, avla, aşk\`;yes]
 
-$addField[$customEmoji[members;843482656725139516] Kullanıcı (40);\`wiki, çevir, kanal, renk, say, banlist, emoji, kanal-ara, afk, sayı, sayıkanal, npm, bansebep, tavsiyekanal, tavsiye, ara, profil, sunucu, rolbilgi, güventest, ayarlar, logo, avatar, korona, ping, youtube, yetkilerim, versiyon, sesegir, sestençık, rozetlerim, function, dolar, lyrics, bot-bilgi, atatürk, dosya-oluştur, davet, site, i\`]
+$addField[$customEmoji[members;843482656725139516] Kullanıcı (41);\`binary, wiki, çevir, kanal, renk, say, banlist, emoji, kanal-ara, afk, sayı, sayıkanal, npm, bansebep, tavsiyekanal, tavsiye, ara, profil, sunucu, rolbilgi, güventest, ayarlar, logo, avatar, korona, ping, youtube, yetkilerim, versiyon, sesegir, sestençık, rozetlerim, function, dolar, lyrics, bot-bilgi, atatürk, dosya-oluştur, davet, site, i\`]
 
 $addField[$customEmoji[tag;843482656725139516] Ticket (5) **[BETA]**;\`ticketkanal ayarla, ticketkanal sıfırla, ticketkategori ayarla, ticketkategori sıfırla, ticket-kapat\`
 [Destek](https://www.kremlin-bot.ga/support/0001)]
